@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    
+    int n=10, a=1, b=1;
+    
+    while(a<n){
+        printf("%d\n",a);
+        a+=2;
+    }
+    
+    printf(" \n\n   do while loop\n\n");
+    
+    do {printf("%d\n",b);
+        b+=2;}while(b<n);
+    
+    return 0;
+}
